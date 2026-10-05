@@ -1,14 +1,11 @@
 {
   "name": "hengyimeta_bot",
   "version": "1.0.0",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "telegraf": "^4.15.0",
-    "openai": "^4.28.0",
-    "dotenv": "^16.4.0"
+    "node-telegram-bot-api": "^0.64.0"
   }
 }

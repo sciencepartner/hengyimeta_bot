@@ -61,3 +61,4 @@ bot.on('message', async (msg) => {
 });
 
 bot.on('polling_error', (err) => console.error("Polling error:", err));
+require('http').createServer((req,res)=>res.end('hengyimeta_bot is running')).listen(process.env.PORT||10000);
